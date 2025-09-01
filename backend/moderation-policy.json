@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-09-01",
+  "policy": {
+    "pt-BR": {
+      "title": "Política de Uso e Moderação do Chat",
+      "objective": "Garantir um ambiente seguro, respeitoso e colaborativo...",
+      "applicability": "Aplica-se a todos os usuários...",
+      "rules": {
+        "allowed": [
+          "Respeitar os demais participantes, mesmo em discordâncias.",
+          "Usar linguagem clara, objetiva e respeitosa.",
+          "Compartilhar conteúdo relevante ao propósito do grupo/chat.",
+          "Denunciar condutas abusivas ou suspeitas à moderação."
+        ],
+        "prohibited": [
+          "Discurso de ódio, racismo, machismo, homofobia ou qualquer forma de discriminação.",
+          "Linguagem ofensiva, agressiva ou ameaçadora.",
+          "Spam, flood (mensagens repetidas) ou autopromoção não autorizada.",
+          "Compartilhamento de conteúdo ilegal, impróprio ou com direitos autorais sem permissão.",
+          "Divulgação de dados pessoais ou sensíveis de terceiros sem consentimento."
+        ]
+      },
+      "moderation": {
+        "functions": [
+          "Monitorar o chat e aplicar as regras descritas.",
+          "Alertar, advertir, silenciar ou banir usuários, conforme a gravidade.",
+          "Excluir mensagens que infrinjam as regras, com ou sem aviso prévio.",
+          "Agir com imparcialidade e registrar incidentes graves."
+        ],
+        "penalties": [
+          { "level": "Leve", "action": "Alerta verbal", "examples": ["Uso indevido de emojis","Leve ironia ofensiva"] },
+          { "level": "Moderada", "action": "Advertência escrita + silêncio temporário", "examples": ["Comentário ofensivo ou provocativo"] },
+          { "level": "Grave", "action": "Banimento temporário ou permanente", "examples": ["Discriminação","Ameaças","Spam malicioso"] }
+        ]
+      },
+      "custom_rules": [],
+      "contact": { "email": "moderacao@seudominio.com", "chat_channel": "mensagem privada à moderação" }
+    },
+    "en-US": {
+      "title": "Chat Usage and Moderation Policy",
+      "objective": "Ensure a safe, respectful, and collaborative environment...",
+      "applicability": "Applies to all users interacting...",
+      "rules": {
+        "allowed": [
+          "Respect other participants, even in disagreements.",
+          "Use clear, objective, and respectful language.",
+          "Share content relevant to the group/chat purpose.",
+          "Report abusive or suspicious behavior to the moderators."
+        ],
+        "prohibited": [
+          "Hate speech, racism, sexism, homophobia, or any form of discrimination.",
+          "Offensive, aggressive, or threatening language.",
+          "Spam, flooding (repetitive messages), or unauthorized self-promotion.",
+          "Sharing of illegal, inappropriate, or copyrighted content without permission.",
+          "Sharing personal or sensitive data of others without consent."
+        ]
+      },
+      "moderation": {
+        "functions": [
+          "Monitor the chat and enforce the stated rules.",
+          "Warn, mute, or ban users based on severity.",
+          "Remove messages that violate the rules.",
+          "Act impartially and log serious incidents."
+        ],
+        "penalties": [
+          { "level": "Minor", "action": "Verbal warning", "examples": ["Inappropriate emoji use","Mild sarcastic comments"] },
+          { "level": "Moderate", "action": "Written warning + temporary mute", "examples": ["Offensive or provocative comment"] },
+          { "level": "Severe", "action": "Temporary or permanent ban", "examples": ["Discrimination","Threats","Malicious spam"] }
+        ]
+      },
+      "custom_rules": [],
+      "contact": { "email": "moderation@yourdomain.com", "chat_channel": "private message to moderators" }
+    }
+  }
+}
